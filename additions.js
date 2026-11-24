@@ -1,0 +1,258 @@
+// 每个条目对应一个可参加的具体赛项、课题或赛站。
+window.ATLAS_ADDITIONS = [
+  {
+    id: 'cumcm', title: '高教社杯全国大学生数学建模竞赛', parent: '全国大学生数学建模竞赛',
+    kind: '竞赛', contestFormat: '可单人组队', region: '国内发起', topics: ['数学建模', '数据分析', '优化与运筹'],
+    summary: '选一道现实问题，把假设、数据、模型和结论写成一篇能让别人检验的论文。',
+    audience: '国内高校本科生和专科生按竞赛分组参赛，先看本校的选拔安排。',
+    entry: '通过本校竞赛负责人组队报名，学校和赛区审核参赛资格。',
+    team: '同校 1–3 名学生组队，可分工做建模、编程和论文整理。',
+    effort: '2026 届从周四傍晚至周日晚上连续比赛，建议先完整试做一道历年题。',
+    delivery: '建模论文及当届通知要求的支撑材料。', cost: '2026 年通知规定参赛费用由学校承担，具体金额由赛区确定。',
+    mode: '由学校统一组织，按赛区安排完成并提交作品。',
+    status: '2026 届已结束', statusNote: '2026 届已公布赛题，可以下载原题练习。', checked: '2026-11-23', edition: '2026 届',
+    try: {label: '下载 2026 年竞赛题', url: 'https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html', note: '挑一道感兴趣的题，先写下可用数据、假设和衡量模型好坏的指标。'},
+    sources: [
+      {label: '组委会 · 2026 年报名和参赛须知', url: 'https://www.mcm.edu.cn/upload_cn/node/779/D3txF20S95f4041e22b41b4a1f9e0e22ac8a1389.pdf'},
+      {label: '组委会 · 历年赛题', url: 'https://www.mcm.edu.cn/html_cn/block/8579f5fce999cdc896f78bca5d4f8237.html'}
+    ],
+    events: [
+      {title: '全国报名和资格审核截止', start: '2026-09-07T20:00:00+08:00', kind: 'deadline', timezone: 'Asia/Shanghai'},
+      {title: '全国竞赛', start: '2026-09-10T18:00:00+08:00', end: '2026-09-13T20:00:00+08:00', kind: 'event', timezone: 'Asia/Shanghai'}
+    ],
+    goals: ['参加比赛']
+  },
+  {
+    id: 'icpc-chengdu', title: 'ICPC 亚洲区域赛 · 成都站', parent: '国际大学生程序设计竞赛（ICPC）',
+    kind: '竞赛', contestFormat: '团队赛', region: '国际项目', topics: ['算法竞赛'],
+    summary: '三名队员共用一台电脑，在限时赛中判断题意、设计算法并提交能通过评测的程序。',
+    audience: '符合当届 ICPC 学籍和参赛年限要求的在校学生，学校获分配名额后参赛。',
+    entry: '联系本校 ACM/ICPC 教练，依邀请函在 ICPC 国际系统与国内报名系统登记。',
+    team: '同校 3 名学生组队，由教练负责报名。', effort: '区域赛通常需要赛前组队训练，成都站正式赛和报到占一个周末。',
+    delivery: '赛场上按题目要求提交代码，由评测系统判定。', cost: '2026 成都站每队 1500 元，食宿与交通另计。',
+    mode: '2026 届成都线下区域赛。', status: '2026 成都站已结束', statusNote: '本卡对应成都赛站，其他区域赛站各有邀请函。',
+    checked: '2026-11-23', edition: '2026 成都站',
+    try: {label: '挑一份 ICPC 历年题', url: 'https://foundation.icpc.global/archive/', note: '找一场比赛，和队友先独立读一道题，再对照彼此的算法与复杂度。'},
+    sources: [{label: 'ICPC 中国区 · 成都站邀请函', url: 'https://icpc.pku.edu.cn/docs/2026-09/8bb3449cf16246568dbccbaa631cc242.pdf'}, {label: 'ICPC Foundation · 题目档案', url: 'https://foundation.icpc.global/archive/'}],
+    events: [
+      {title: '成都站报名截止', start: '2026-10-10T23:59:00+08:00', kind:'deadline', timezone:'Asia/Shanghai'},
+      {title: '成都站现场赛', start: '2026-10-24', end: '2026-10-25', kind: 'event', timezone:'Asia/Shanghai'}
+    ], goals: ['参加比赛']
+  },
+  {
+    id: 'design-interaction', title: '数媒游戏与交互设计', parent: '中国大学生计算机设计大赛',
+    kind: '竞赛', contestFormat: '团队赛', region: '国内发起', topics: ['游戏开发', '人机交互', '计算机图形学'],
+    summary: '把一个明确的主题做成可试玩的游戏或交互作品，现场说明观众如何参与、作品如何实现。',
+    audience: '面向普通高等学校在读本科生，适合愿意把编程和视觉设计放进同一作品的同学。',
+    entry: '联系学校竞赛负责人参加校级选拔，通过省级赛推荐进入国赛。',
+    team: '同校 2–9 人组队，国赛答辩至少 2 位作者到场。', effort: '适合按项目准备，给交互原型、试玩反馈和现场演示各留一轮时间。',
+    delivery: '按赛项要求提交可演示的游戏或交互作品及配套材料。', cost: '分阶段查看本校、省级赛和国赛通知。',
+    mode: '学校及省级赛选拔，进入国赛后现场答辩。',
+    status: '2026 届已结束', statusNote: '2026 届数媒类别有中国古代建筑主题要求，准备新一届时应重新核对命题。',
+    checked:'2026-11-23', edition:'2026 年第 19 届',
+    try: {label:'阅读游戏与交互类命题', url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm', note:'从题目规定的建筑对象中选一种，画出玩家的第一个操作以及屏幕给出的反馈。'},
+    sources:[{label:'组委会 · 分类与参赛要求',url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm'},{label:'组委会 · 2026 全国决赛获奖名单',url:'https://jsjds.blcu.edu.cn/dsdt.htm'}],
+    events:[], goals:['参加比赛','做出作品']
+  },
+  {
+    id:'design-software', title:'软件应用与开发', parent:'中国大学生计算机设计大赛',
+    kind:'竞赛', contestFormat: '团队赛', region:'国内发起', topics:['后端开发','前端与移动开发'],
+    summary:'把校园或生活中的实际需求做成可运行的软件，在演示中让评委亲自看懂它解决了什么问题。',
+    audience:'普通高校本科生，适合已有 Web、移动应用或其他软件课程项目的小组。',
+    entry:'查看学校面向软件应用与开发类别的选拔通知，经过校赛、省级赛推荐进入国赛。',
+    team:'同校 2–9 人，国赛答辩至少 2 位作者到场。', effort:'需要预留需求确认、开发、实测和准备答辩的时间。',
+    delivery:'可运行的软件作品，以及该类别规定的展示和说明材料。', cost:'各阶段费用及报销方式按学校和承办方通知。',
+    mode:'校赛、省级赛、全国决赛逐级选拔。',status:'2026 届已结束',statusNote:'2026 届软件应用与开发全国决赛已举行。',
+    checked:'2026-11-23',edition:'2026 年第 19 届',
+    try:{label:'查看软件赛项与作品要求',url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm',note:'为已有课程项目找一个合适的小类，列出从启动到完成核心任务的演示步骤。'},
+    sources:[{label:'组委会 · 参赛要求',url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm'},{label:'组委会 · 各赛区决赛纪实',url:'https://jsjds.blcu.edu.cn/dsjd.htm'}],
+    events:[],goals:['参加比赛','做出作品']
+  },
+  {
+    id:'oscomp-function',title:'操作系统设计赛 · OS 功能挑战',parent:'全国大学生计算机系统能力大赛',
+    kind:'竞赛', contestFormat: '可单人组队',region:'国内发起',topics:['操作系统'],
+    summary:'选一个具体的内核、文件系统或运行环境问题，写代码实现功能，再用测试证明它的行为。',
+    audience:'对操作系统原理、C 或 Rust 感兴趣的高校学生，先查看赛题列出的技术基础。',
+    entry:'在操作系统设计赛平台找到功能挑战赛道，阅读具体题目后按当届规则报名。',
+    team:'同校 1–3 名学生组成一队，可以单人报名。',effort:'赛期以项目开发为主，需要留出调试、验证和准备答辩的时间。',
+    delivery:'源代码、测试和项目说明，按赛道要求准备演示或答辩。',cost:'费用及入围后的差旅安排以承办方和本校通知为准。',
+    mode:'按赛题开发并在线提交，决赛安排见当届通知。',status:'2026 届已结束',statusNote:'往届题库保留了具体功能的实现目标，可用于课程项目选题。',
+    checked:'2026-11-23',edition:'2026 届',
+    try:{label:'浏览 OS 功能赛题库',url:'https://github.com/oscomp',note:'打开一个以 proj 开头的赛题仓库，找出它要求实现的功能和验证方式。'},
+    sources:[{label:'竞赛平台 · 2026 操作系统设计赛',url:'https://course.educg.net/pages/contest/contest.jsp?contestCID=0&contestID=Y8zmbRcqh1Q&my=false&tabDocID=3467784'},{label:'燕山大学 · 2026 年两赛道组队规则',url:'https://xxgk.ysu.edu.cn/info/1008/21700.htm'},{label:'哈工大（深圳） · 操作系统设计赛资料',url:'https://oslabs.hitsz.edu.cn/oscomp/oscomp.html'}],
+    events:[],goals:['参加比赛','做出作品']
+  },
+  {
+    id:'robocup-soccer2d',title:'机器人足球 · 2D 仿真',parent:'RoboCup 机器人世界杯中国赛',
+    kind:'竞赛', contestFormat: '团队赛',region:'国内发起',topics:['机器人','算法竞赛'],
+    summary:'在软件模拟的足球场上编写球员程序，让它们根据局部观察决定何时移动、传球或射门。',
+    audience:'对机器人决策、多智能体协作感兴趣的学生。可以从软件仿真入手。',
+    entry:'查看中国赛当届通知及仿真 2D 组规则，通过学校组队登记。',
+    team:'按中国赛仿真 2D 项目组队，具体名额以当届规定为准。',effort:'需要反复运行模拟比赛，观察球员决策并调整队伍策略。',
+    delivery:'可运行的球队客户端及队伍技术说明。',cost:'查看当届中国赛通知及学校差旅安排。',
+    mode:'软件仿真对抗，按赛会安排参加正式比赛。',status:'2026 中国赛已结束',statusNote:'2026 规则和赛程已公开，仿真项目可在个人电脑上了解。',
+    checked:'2026-11-23',edition:'2026 中国赛',
+    try:{label:'读 2D 仿真专项规则',url:'https://rcccaa.drct-caa.org.cn/image/file/20260319/1773889021449442.pdf',note:'在规则里找出服务器与球员程序的关系，写出你希望一个球员学会的第一项动作。'},
+    sources:[{label:'中国赛 · 足球仿真 2D 项目规则',url:'https://rcccaa.drct-caa.org.cn/image/file/20260319/1773889021449442.pdf'},{label:'中国赛 · 竞赛日程',url:'https://rcccaa.drct-caa.org.cn/article_info.php?id=125'}],
+    events:[],goals:['参加比赛','做出作品']
+  },
+  {
+    id:'nuedc-vision',title:'单目视觉目标测量装置',parent:'全国大学生电子设计竞赛',
+    kind:'竞赛', contestFormat: '团队赛',region:'国内发起',topics:['嵌入式系统','计算机视觉'],
+    summary:'用单个摄像头提取图像信息，做出能实际测量目标的装置。可以直接下载原题核对测量条件和评分细则。',
+    audience:'电子、自动化、计算机等专业学生，特别适合愿意把图像算法移植到硬件上的同学。',
+    entry:'这是 2025 全国赛 C 题。参加新一届比赛需联系学校电赛负责人，由学校或赛区组织报名。',
+    team:'按全国大学生电子设计竞赛当届要求由学校组队。',effort:'从图像采集、尺寸标定开始，再联调硬件并对照题目测量误差。',
+    delivery:'可测试的测量装置、设计报告及题目所列测量结果。',cost:'元器件、设备及参赛费用以本校安排为准。',
+    mode:'动手搭建装置，按赛题现场测试。',status:'往届赛题',statusNote:'本卡收录的是 2025 年 C 题，适合了解全国电赛的一类具体任务。',
+    checked:'2026-11-23',edition:'2025 全国赛 · C 题',
+    try:{label:'下载单目测量原题',url:'https://res.nuedc-training.com.cn/topic/2025/topic_122.html',note:'先看测试条件，画出摄像头、目标和尺寸标定参照物的相对位置。'},
+    sources:[{label:'全国电赛培训网 · C 题原题',url:'https://res.nuedc-training.com.cn/topic/2025/topic_122.html'},{label:'全国电赛培训网 · 2025 年题库',url:'https://res.nuedc-training.com.cn/topic/2025/topic_from_30.html'}],
+    events:[],goals:['参加比赛','做出作品']
+  },
+  {
+    id:'nscscc-cpu',title:'龙芯杯 CPU 设计赛 · 个人赛',parent:'全国大学生计算机系统能力培养大赛',
+    kind:'竞赛', contestFormat: '个人赛',region:'国内发起',topics:['芯片设计'],
+    summary:'从指令集出发设计处理器，用测试程序验证数据通路与控制逻辑是否按预期工作。',
+    audience:'适合学过数字逻辑、计算机组成原理或硬件描述语言的高校学生。',
+    entry:'从龙芯杯官网的个人赛栏目获取当届技术方案和报名通知，通过学校确认参赛资格。',
+    team:'个人赛独立参赛，团队赛另有章程。',effort:'适合分阶段实现指令、运行功能测试，再优化和准备演示。',
+    delivery:'满足个人赛技术方案的 CPU 设计与测试材料。',cost:'设备使用和差旅支持以当届通知及学校安排为准。',
+    mode:'根据赛季任务包完成设计、测试与竞赛评审。',status:'2026 届已结束',statusNote:'2026 年第十届赛事已发布获奖信息，个人赛技术方案仍可查阅。',
+    checked:'2026-11-23',edition:'2026 年第十届',
+    try:{label:'查看个人赛技术资料',url:'https://www.nscscc.com/',note:'从个人赛栏目打开技术方案，挑一条指令，画出它从取指到写回会经过哪些部件。'},
+    sources:[{label:'大赛组委会 · 第十届章程',url:'https://www.nscscc.com/?p=844'},{label:'龙芯杯 · 赛道资料与赛季公告',url:'https://www.nscscc.com/'}],
+    events:[],goals:['参加比赛', '做出作品']
+  },
+  {
+    id:'ciscn-works',title:'信息安全自由作品赛',parent:'全国大学生信息安全竞赛',
+    kind:'竞赛', contestFormat: '团队赛',region:'国内发起',topics:['网络安全','密码学'],
+    summary:'围绕数据保护、身份认证等实际需要，自己定题，做一件能演示效果的安全软件或硬件。',
+    audience:'高校学生可按当届通知组队，适合把已有的隐私保护或密码应用小项目继续完善。',
+    entry:'从作品赛平台查看自由作品赛通知，按学校要求登记并提交作品。',
+    team:'同校组队，每队最多 4 名学生。',effort:'准备项目设计、可运行作品和演示材料，入围后还需按要求答辩。',
+    delivery:'自主设计的信息安全软件或硬件及说明材料。',cost:'第十九届不收取参赛队伍费用，差旅安排向学校核对。',
+    mode:'线上提交作品并接受评审，入围后按决赛通知参加。',status:'2026 届已结束',statusNote:'本卡介绍第十九届的自由作品赛，报名日程按届公布。',
+    checked:'2026-11-23',edition:'2026 年第十九届',
+    try:{label:'查看历届获奖作品',url:'https://www.ciscn.cn/award',note:'找一项与数据保护有关的作品，写下它要保护的数据、使用者以及如何证明保护有效。'},
+    sources:[{label:'竞赛官网 · 作品赛',url:'https://www.ciscn.cn/competition'},{label:'无锡学院 · 转发第十九届作品赛通知',url:'https://www.cwxu.edu.cn/info/1039/21099.htm'}],
+    events:[],goals:['参加比赛','做出作品']
+  },
+  {
+    id:'westlake-compiler',title:'AI 编译器与代码生成暑研',parent:'西湖大学暑期科研实习',
+    kind:'科研机会',region:'国内发起',topics:['编译器','机器学习'],
+    summary:'走进实验室，了解机器学习模型怎样被编译成高效程序。该方向列在 2026 年王欢老师课题组暑研项目中。',
+    audience:'面向有读博意向的计算机、电子工程、控制等方向学生，具备 C/C++、操作系统、体系结构或编译器基础可加分。',
+    entry:'从西湖大学暑期科研实习通知找到项目清单和申请入口，核对当年的专业、年级与到校要求。',
+    team:'个人申请，录取后进入导师团队。',effort:'暑期在实验室按导师安排开展研究，具体周期见当届简章。',
+    delivery:'课题组以论文为研究目标，需开展实验并产出可检验的研究结果。',cost:'资助及食宿政策需核对项目当届简章。',
+    mode:'校内研究实习，向全国高校学生开放申请。',status:'2026 暑研已结束',statusNote:'这是 2026 年项目表中的具体研究方向，新一届课题和导师以新简章为准。',
+    checked:'2026-11-23',edition:'2026 暑期 · 项目 52',
+    try:{label:'阅读导师课题说明（第 7 页）',url:'https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/notification_announcement/202601/P020260205320569281974.pdf#page=7',note:'读项目 52 的方向与要求，标出一门已有基础的课程，以及一个想向导师请教的研究问题。'},
+    sources:[{label:'西湖大学 · 2026 暑期科研实习公告',url:'https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/notification_announcement/202601/t20260127_64398.html'},{label:'西湖大学 · 课题和导师清单',url:'https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/notification_announcement/202601/P020260205320569281974.pdf#page=7'},{label:'西湖大学 · 2026 暑研回顾',url:'https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202609/t20260923_70017.html'}],
+    events:[],goals:['体验科研']
+  },
+  {
+    id:'lanqiao-web',title:'蓝桥杯 · Web 应用开发',parent:'蓝桥杯全国大学生软件和信息技术大赛',
+    kind:'竞赛', contestFormat: '个人赛',region:'国内发起',topics:['前端与移动开发'],
+    summary:'在限定时间内完成具体的网页开发任务。可以先做一道免费真题，看看自己对页面布局、JavaScript 和交互逻辑有多熟悉。',
+    audience:'符合组别和学籍要求的高校学生，适合学过网页开发基础、想独立练习的同学。',
+    entry:'进入大赛官网注册，选择软件赛中的 Web 应用开发，按学校流程完成确认及缴费。',
+    team:'个人赛，独立完成赛题。',effort:'第十八届省赛安排在 2027 年 4 月，晋级后全国总决赛安排在 6 月，具体日期以组委会后续公告为准。',
+    delivery:'按题目要求提交网页或应用功能的实现代码。',cost:'省赛有报名费，校内缴费和报销方式由学校公布。',
+    mode:'个人报名，在赛点按机试规则参赛。',status:'报名中',statusNote:'第十八届软件赛系统报名截至北京时间 2026 年 12 月 18 日 14:00。学校选拔和缴费可能另设截止日。',
+    checked:'2026-11-23',edition:'第十八届 · 2026–2027 赛季',
+    try:{label:'试做 Web 应用开发历届真题',url:'https://www.lanqiao.cn/courses/62743',note:'选一道真题，先实现能运行的最小页面，再逐项检查题目要求的交互效果。'},
+    sources:[{label:'蓝桥杯 · 第十八届大赛通知',url:'https://dasai.lanqiao.cn/notices/3002/'},{label:'上海师范大学 · 软件个人赛报名通知',url:'https://xxjd.shnu.edu.cn/_t802/24/82/c27065a861314/page.htm'},{label:'山东师范大学 · 全国软件赛时间安排',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'}],
+    events:[
+      {title:'软件赛系统开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},
+      {title:'Web 应用开发报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'}
+    ],goals:['参加比赛', '做出作品']
+  },
+  {
+    id:'westlake-nlp',title:'大语言模型的强化学习与逻辑推理',parent:'西湖大学暑期科研实习',
+    kind:'科研机会',region:'国内发起',topics:['自然语言处理','机器学习'],
+    summary:'研究语言模型怎样做推理、怎样通过训练改善表现。2026 年张岳老师的自然语言处理课题组把这个问题列为暑期实习课题。',
+    audience:'具备大语言模型基础、希望尝试自然语言处理研究的学生。',
+    entry:'从学校暑研项目清单寻找导师及课题，再通过当届申请系统提交材料。',
+    team:'个人申请，录取后加入导师团队。',effort:'暑期在实验室按课题安排推进研究，先阅读一篇相关论文有助于判断兴趣。',
+    delivery:'根据研究问题参与文献调研、实验和结果汇报。',cost:'资助与食宿安排见当届校方简章。',
+    mode:'在西湖大学云谷校区参加研究实习。',status:'2026 暑研已结束',statusNote:'项目 14 为 2026 年的导师课题，下一届的研究题目以学校新清单为准。',
+    checked:'2026-11-23',edition:'2026 暑期 · 项目 14',
+    try:{label:'阅读实验室的研究论文',url:'https://westlakenlp.com/',note:'进入 Publications 选一篇推理方向的论文，看看作者用什么任务判断模型是否进步。'},
+    sources:[{label:'西湖大学 · 2026 暑研课题清单（第 2 页）',url:'https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/notification_announcement/202601/P020260205320569281974.pdf#page=2'},{label:'西湖大学 · 2026 暑期科研实习公告',url:'https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/notification_announcement/202601/t20260127_64398.html'},{label:'WestlakeNLP · 实验室与研究',url:'https://westlakenlp.com/'}],
+    events:[],goals:['体验科研']
+  },
+  {
+    id: 'atcoder-abc', title: 'AtCoder Beginner Contest', parent: 'AtCoder',
+    aliases: ['ABC', 'AtCoder 入门赛'], kind: '竞赛', contestFormat: '个人赛', region: '国际项目', topics: ['算法竞赛'],
+    summary: '适合第一次打算法赛。从 A 题开始，读入数据、写出判断、提交代码，当场就能看到哪些测试通过。',
+    audience: '对编程感兴趣的人都能参赛。第 486 场对所有人开放，赛前评分在 0–1999 范围内的选手可更新评分。',
+    entry: '登录 AtCoder，从官方赛历选一场 Beginner Contest，进入场次首页点 Register。',
+    team: '个人赛，一人报名并独立答题。', effort: '第 486 场限时 100 分钟。第一次可以把目标定为独立完成 A、B 两题。',
+    delivery: '逐题提交源代码，由在线评测系统运行测试并计算得分。', cost: '公开算法赛免费参加。',
+    mode: '全程线上，题面可切换为英文或日文。', edition: '常设系列 · 已核实第 486 场',
+    status: '按场次报名', statusNote: '第 486 场的时间已公布。后续场次请在 AtCoder 赛历按名称查找。', checked: '2026-11-23',
+    try: {label: '试做 ABC086 A 题 Product', url: 'https://atcoder.jp/contests/abc086/tasks/abc086_a?lang=en', note: '用两个样例检查输入和输出，再试试两个数都是奇数的情况。'},
+    sources: [
+      {label: 'AtCoder · 赛历与报名入口', url: 'https://atcoder.jp/contests?lang=en'},
+      {label: 'AtCoder · 第 486 场赛程与评分范围', url: 'https://atcoder.jp/contests/abc486'},
+      {label: 'AtCoder · 参赛资格与个人竞赛规则', url: 'https://atcoder.jp/contests/abc155/rules'},
+      {label: 'AtCoder · 免费参赛说明', url: 'https://info.atcoder.jp/overview/about/why-tada'}
+    ],
+    events: [{title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场'}],
+    goals: ['参加比赛']
+  },
+  {
+    id: 'leetcode-weekly', title: '力扣周赛', parent: 'LeetCode 力扣',
+    aliases: ['LeetCode Weekly Contest', '力扣算法周赛'], kind: '竞赛', contestFormat: '个人赛', region: '国际项目', topics: ['算法竞赛'],
+    summary: '想用中文读题，可以从力扣周赛入门。比如第 400 场第一题只给一串顾客进出的记录，要算出候诊室最少该放几把椅子。',
+    audience: '面向力扣注册用户，国内高校学生可通过中文站自行报名。',
+    entry: '登录力扣中文站，打开「竞赛」，选择名称为「周赛」的场次并报名。',
+    team: '个人赛，每位选手用自己的账号独立提交。', effort: '在线限时解题。第 400 场共四题，新手可以先从一道往届题开始。',
+    delivery: '为每道题编写解答函数，提交后由平台测试并记录得分。', cost: '注册账号免费，官方周赛入口未列单独报名费。',
+    mode: '全程线上，中文站提供中文题面和在线评测。', edition: '常设周赛',
+    status: '按场次报名', statusNote: '在竞赛页选择具体场次查看开赛时间。往届赛题也可单独练习。', checked: '2026-11-23',
+    try: {label: '试做第 400 场「候诊室中的最少椅子数」', url: 'https://leetcode.cn/problems/minimum-number-of-chairs-in-a-waiting-room/', note: '手动走一遍题面的进出记录，用一张表记下每一步的在场人数。'},
+    sources: [
+      {label: '力扣中文站 · 周赛报名入口', url: 'https://leetcode.cn/contest/'},
+      {label: '力扣 · 官方竞赛规则', url: 'https://leetcode.cn/discuss/post/3103114/'},
+      {label: '力扣 · 第 400 场周赛题单', url: 'https://leetcode.cn/contest/weekly-contest-400/'},
+      {label: 'LeetCode · 账号与报名说明', url: 'https://support.leetcode.com/hc/en-us/articles/360011883794-Do-I-need-to-register-for-the-contest'}
+    ],
+    events: [], goals: ['参加比赛']
+  },
+  {
+    id: 'codeforces-div3', title: 'Codeforces Div. 3', parent: 'Codeforces Round',
+    aliases: ['CF', 'Codeforces 第三组'], kind: '竞赛', contestFormat: '个人赛', region: '国际项目', topics: ['算法竞赛'],
+    summary: '适合想练限时编程的同学。先用英文读懂一道 A 题，自己构造边界用例，再尝试在同一场里连做几题。',
+    audience: '公开轮次对个人用户开放。以第 1109 轮为例，评分低于 1600 的选手可以计分，达到 1600 的选手也可非正式参赛。',
+    entry: '登录 Codeforces，在 Contests 列表找到标题带 Div. 3 的轮次，点 Register 报名。',
+    team: '个人赛，以个人账号独立答题。', effort: '不同轮次单独公告。第 1109 轮共七题，限时 2 小时 15 分钟。',
+    delivery: '逐题提交可通过测试的程序，赛后可以回到题目页重做。', cost: '常规公开轮次免费参加。',
+    mode: '全程线上，平台提供英文题面。', edition: '常设分级赛',
+    status: '按场次报名', statusNote: '具体日期、开赛时刻和计分要求按每轮公告更新，报名请认准 Div. 3 标记。', checked: '2026-11-23',
+    try: {label: '试做第 895 轮 A 题 Two Vessels', url: 'https://codeforces.com/problemset/problem/1872/A', note: '先画两个容器，手动模拟一次倒水，再考虑需要移动的最少次数。'},
+    sources: [
+      {label: 'Codeforces · 赛历与报名入口', url: 'https://codeforces.com/contests'},
+      {label: 'Codeforces · 第 1109 轮 Div. 3 规则', url: 'https://codeforces.com/blog/entry/155106?locale=en'},
+      {label: 'Codeforces · 参赛与费用 FAQ', url: 'https://codeforces.com/blog/entry/1336'}
+    ],
+    events: [], goals: ['参加比赛']
+  },
+  {
+    id:'lanqiao-cpp',title:'蓝桥杯 · C/C++ 程序设计',parent:'蓝桥杯全国大学生软件和信息技术大赛',
+    kind:'竞赛',region:'国内发起',topics:['算法竞赛'],contestFormat:'个人赛',
+    summary:'用 C 或 C++ 独立解算法题。可以从一份 B 组省赛真题开始，练习把解题思路写成能通过测试的程序。',
+    audience:'按报名时的全日制学籍分组。非 985、非 211 院校的本科生可选 B 组及以上组别，高职高专学生也可选 B 组。985、211 院校本科生须选 A 组或以上，研究生须报研究生组。',
+    entry:'在大赛官网实名认证，选择本校、C/C++ 程序设计和对应组别。学校审核并添加指导教师后，再按校内通知缴费。',
+    team:'个人赛，选手独立作答，由学校组织报名。',effort:'先参加省赛，晋级后参加全国总决赛。备赛时可先独立做一题，再完整限时练习。',
+    delivery:'按题面要求提交答案或 C/C++ 程序。',cost:'该科目省赛报名费为每人 300 元。差旅食宿自理，校内资助情况请向学校确认。',
+    mode:'在指定赛点参加机试，地点以准考证为准。',status:'报名中',statusNote:'第十八届软件赛全国系统报名截至北京时间 2026 年 12 月 18 日 14:00。校内审核、选拔或缴费可能提前。',
+    checked:'2026-11-23',edition:'第十八届 · 2026–2027 赛季',
+    try:{label:'试做 C/C++ 大学 B 组历届真题',url:'https://www.lanqiao.cn/courses/5451',note:'从蓝桥云课的免费 B 组真题解析中选一题，先自己写程序，再对照思路。'},
+    sources:[{label:'蓝桥杯组委会 · 个人赛报名入口与分组说明',url:'https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html'},{label:'山东师范大学教务处 · 第十八届软件赛及全国赛程',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'},{label:'蓝桥云课 · C/C++ 大学 B 组真题解析',url:'https://www.lanqiao.cn/courses/5451'}],
+    events:[{title:'C/C++ 省赛开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},{title:'C/C++ 省赛全国报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'}],
+    goals:['参加比赛']
+  }
+];

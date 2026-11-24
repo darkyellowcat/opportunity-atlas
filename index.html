@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f3">
+  <meta name="description" content="给计算机学生的竞赛、科研与开源活动指南。按兴趣认识机会，查阅官方节点、体验任务和参与路径。">
+  <title>机会路标 · 给计算机学生的竞赛、科研与开源活动指南</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="atlas-art.js"></script>
+  <script defer src="catalog.js"></script>
+  <script defer src="programs.js"></script>
+  <script defer src="additions.js"></script>
+  <script defer src="extras.js"></script>
+  <script defer src="topics.js"></script>
+  <script defer src="shared.js"></script>
+  <script defer src="explore.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">跳到主要内容</a>
+  <header class="site-header">
+    <div class="top-inner">
+      <a class="brand" href="index.html#home" aria-label="机会路标首页"><span class="brand-mark" aria-hidden="true"><i></i></span><span>机会路标</span></a>
+      <nav class="site-nav" aria-label="主要导航">
+        <a data-nav="home" href="index.html#home">兴趣方向</a>
+        <a data-nav="browse" href="index.html#browse">活动索引</a>
+        <a data-nav="map" href="index.html#map">成长地图</a>
+        <a data-nav="feedback" href="index.html#feedback">推荐与纠错</a>
+      </nav>
+      <nav class="quick-nav" aria-label="我的工具">
+        <a data-nav="saved" href="index.html#saved"><i class="bookmark-icon" aria-hidden="true"></i>收藏<span data-count="saved" hidden></span></a>
+        <a data-nav="compare" href="index.html#compare"><i class="compare-icon" aria-hidden="true"></i>对比<span data-count="compare" hidden></span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="app" class="atlas-main" tabindex="-1">
+    <noscript><p><a href="opportunities/index.html">浏览活动静态索引</a>。启用 JavaScript 后可按兴趣筛选、对比和收藏。</p></noscript>
+  </main>
+  <footer class="site-footer">
+    <a href="index.html#home" class="footer-brand"><span class="brand-mark" aria-hidden="true"><i></i></span>机会路标</a>
+    <span>给计算机学生的竞赛、科研与开源活动指南</span>
+    <a class="text-link" href="index.html#feedback">推荐活动或纠错</a>
+  </footer>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <template id="home-hero">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">机会路标<span class="title-spark" aria-hidden="true"></span></h1>
+        <p>给计算机学生的竞赛、科研与开源活动指南</p>
+        <div class="hero-actions"><a href="index.html#browse" class="btn btn-primary">浏览全部机会</a><a href="index.html#map" class="btn btn-paper">我还没选方向</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><opportunity-atlas></opportunity-atlas></div>
+    </section>
+  </template>
+</body>
+</html>

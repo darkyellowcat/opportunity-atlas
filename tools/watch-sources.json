@@ -1,0 +1,60 @@
+{
+  "gsoc": [
+    "https://developers.google.com/open-source/gsoc/timeline",
+    "https://opensource.googleblog.com/search/label/gsoc"
+  ],
+  "ospp": [
+    "https://docs2026.summer.ospp.ac.cn/help/student%20guide",
+    "https://summer.ospp.ac.cn/"
+  ],
+  "rhino-bird": [
+    "https://ur.tencent.com/",
+    "https://ur.tencent.com/article/1529"
+  ],
+  "opencamp": [
+    "https://opencamp.cn/os2edu/camp",
+    "https://opencamp.cn/os2edu/camp/2026fall"
+  ],
+  "lfx": [
+    "https://mentorship.linuxfoundation.org/programs"
+  ],
+  "outreachy": [
+    "https://www.outreachy.org/apply/project-selection/",
+    "https://www.outreachy.org/blog/feed/"
+  ],
+  "kubecon": [
+    "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/"
+  ],
+  "fields-lean": [
+    "https://www2.fields.utoronto.ca/activities/26-27/FUSRP-Shanghai"
+  ],
+  "db-contest": [
+    "https://db.xtnl.org.cn/",
+    "https://web.ymu.edu.cn/jwc/info/1081/2581.htm"
+  ],
+  "comap-mcm": [
+    "https://contest.comap.com/undergraduate/contests/mcm/instructions.html",
+    "https://contest.comap.com/undergraduate/contests/index.html"
+  ],
+  "cumcm": [
+    "https://www.mcm.edu.cn/"
+  ],
+  "icpc-chengdu": [
+    "https://icpc.pku.edu.cn/tzgg/index.htm"
+  ],
+  "design-interaction": [
+    "https://jsjds.blcu.edu.cn/dsdt.htm"
+  ],
+  "design-software": [
+    "https://jsjds.blcu.edu.cn/dsdt.htm"
+  ],
+  "nscscc-cpu": [
+    "https://www.nscscc.com/"
+  ],
+  "robocup-soccer2d": [
+    "https://rcccaa.drct-caa.org.cn/"
+  ],
+  "westlake-compiler": [
+    "https://www.westlake.edu.cn/admissions/summer_sessions/summer_internship/"
+  ]
+}

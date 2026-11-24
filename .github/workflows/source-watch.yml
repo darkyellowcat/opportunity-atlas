@@ -1,0 +1,49 @@
+name: 官方来源巡查
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: source-watch-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    if: github.event_name == 'workflow_dispatch' || vars.SOURCE_WATCH_ENABLED != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: 恢复上一次巡查记录
+        uses: actions/cache/restore@v6
+        with:
+          path: .source-watch/state.json
+          key: opportunity-watch-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: opportunity-watch-v1-
+      - name: 从活动数据读取条目
+        run: |
+          mkdir -p .source-watch
+          node tools/list-review-sources.mjs > .source-watch/items.json
+      - name: 核查来源并整理待办
+        run: |
+          python3 tools/check-sources.py --items .source-watch/items.json --directory .source-watch
+          cat .source-watch/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: 保存巡查基线
+        uses: actions/cache/save@v6
+        with:
+          path: .source-watch/state.json
+          key: opportunity-watch-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: 导出待核实清单
+        uses: actions/upload-artifact@v7
+        with:
+          name: source-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .source-watch/report.md
+          include-hidden-files: true
+          retention-days: 30
