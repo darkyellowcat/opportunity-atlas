@@ -167,7 +167,8 @@ window.ATLAS_ADDITIONS = [
     events:[
       {title:'软件赛系统开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},
       {title:'Web 应用开发报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'},
-      {title:'Web 应用开发省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准'}
+      {title:'省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准',source:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},
+      {title:'全国总决赛（计划，仅限晋级者）',start:'2027-06-12',kind:'event',timezone:'Asia/Shanghai',scope:'多科晋级只能选一科参加',source:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'}
     ],goals:['参加比赛', '做出作品']
   },
   {
@@ -201,7 +202,11 @@ window.ATLAS_ADDITIONS = [
       {label: 'AtCoder · 参赛资格与个人竞赛规则', url: 'https://atcoder.jp/contests/abc155/rules'},
       {label: 'AtCoder · 免费参赛说明', url: 'https://info.atcoder.jp/overview/about/why-tada'}
     ],
-    events: [{title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场'}, {title: 'ABC 第 487 场比赛', start: '2026-12-05T21:00:00+09:00', end: '2026-12-05T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 487 场'}],
+    events: [
+      // uid 已随上一版对外发布，冻结后不要再改；新增场次各自给稳定标识，不受 edition 改动影响。
+      {title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场', uid: 'atcoder-abc/常设系列 · 已核实第 486 场/event:ABC 第 486 场比赛:仅第 486 场'},
+      {title: 'ABC 第 487 场比赛', start: '2026-12-05T21:00:00+09:00', end: '2026-12-05T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 487 场', uid: 'atcoder-abc/abc-487'}
+    ],
     goals: ['参加比赛']
   },
   {
@@ -253,7 +258,7 @@ window.ATLAS_ADDITIONS = [
     checked:'2026-11-23',edition:'第十八届 · 2026–2027 赛季',
     try:{label:'试做 C/C++ 大学 B 组历届真题',url:'https://www.lanqiao.cn/courses/5451',note:'从蓝桥云课的免费 B 组真题解析中选一题，先自己写程序，再对照思路。'},
     sources:[{label:'蓝桥杯组委会 · 个人赛报名入口与分组说明',url:'https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html'},{label:'蓝桥杯组委会 · 第十八届省赛比赛时间通知（PDF）',url:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},{label:'山东师范大学教务处 · 第十八届软件赛及全国赛程',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'},{label:'蓝桥云课 · C/C++ 大学 B 组真题解析',url:'https://www.lanqiao.cn/courses/5451'}],
-    events:[{title:'C/C++ 省赛开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},{title:'C/C++ 省赛全国报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'},{title:'C/C++ 程序设计省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准'}],
+    events:[{title:'C/C++ 省赛开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},{title:'C/C++ 省赛全国报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'},{title:'省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准',source:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},{title:'全国总决赛（计划，仅限晋级者）',start:'2027-06-12',kind:'event',timezone:'Asia/Shanghai',scope:'多科晋级只能选一科参加',source:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'}],
     goals:['参加比赛']
   }
 ];
