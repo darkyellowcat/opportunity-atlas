@@ -48,10 +48,10 @@ window.ATLAS_ADDITIONS = [
     team: '同校 2–9 人组队，国赛答辩至少 2 位作者到场。', effort: '适合按项目准备，给交互原型、试玩反馈和现场演示各留一轮时间。',
     delivery: '按赛项要求提交可演示的游戏或交互作品及配套材料。', cost: '分阶段查看本校、省级赛和国赛通知。',
     mode: '学校及省级赛选拔，进入国赛后现场答辩。',
-    status: '2026 届已结束', statusNote: '2026 届数媒类别有中国古代建筑主题要求，准备新一届时应重新核对命题。',
+    status: '2026 届已结束', statusNote: '2026 届数媒类别要求围绕中国古代建筑命题。组委会已于 2026 年 11 月公布 2027 年第 20 届数媒类主题为「中国农耕时间指南二十四节气」；新一届报名安排尚未公布。',
     checked:'2026-11-23', edition:'2026 年第 19 届',
-    try: {label:'阅读游戏与交互类命题', url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm', note:'从题目规定的建筑对象中选一种，画出玩家的第一个操作以及屏幕给出的反馈。'},
-    sources:[{label:'组委会 · 分类与参赛要求',url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm'},{label:'组委会 · 2026 全国决赛获奖名单',url:'https://jsjds.blcu.edu.cn/dsdt.htm'}],
+    try: {label:'按 2027 届主题构思一个节气关卡', url:'https://jsjds.blcu.edu.cn/info/1041/2954.htm', note:'第 20 届数媒类主题为「中国农耕时间指南二十四节气」。先选一个节气，画出玩家的第一个操作以及屏幕给出的反馈。'},
+    sources:[{label:'组委会 · 分类与参赛要求',url:'https://jsjds.blcu.edu.cn/gyds1/csyq.htm'},{label:'组委会 · 2027 年第 20 届数媒类主题公布',url:'https://jsjds.blcu.edu.cn/info/1041/2954.htm'},{label:'组委会 · 2026 全国决赛获奖名单',url:'https://jsjds.blcu.edu.cn/dsdt.htm'}],
     events:[], goals:['参加比赛','做出作品']
   },
   {
@@ -158,15 +158,16 @@ window.ATLAS_ADDITIONS = [
     summary:'在限定时间内完成具体的网页开发任务。可以先做一道免费真题，看看自己对页面布局、JavaScript 和交互逻辑有多熟悉。',
     audience:'符合组别和学籍要求的高校学生，适合学过网页开发基础、想独立练习的同学。',
     entry:'进入大赛官网注册，选择软件赛中的 Web 应用开发，按学校流程完成确认及缴费。',
-    team:'个人赛，独立完成赛题。',effort:'第十八届省赛安排在 2027 年 4 月，晋级后全国总决赛安排在 6 月，具体日期以组委会后续公告为准。',
+    team:'个人赛，独立完成赛题。',effort:'第十八届省赛拟定 2027 年 4 月 10 日 9:00–13:00，晋级后全国总决赛计划于 2027 年 6 月 12 日；时间以准考证为准。',
     delivery:'按题目要求提交网页或应用功能的实现代码。',cost:'省赛有报名费，校内缴费和报销方式由学校公布。',
-    mode:'个人报名，在赛点按机试规则参赛。',status:'报名中',statusNote:'第十八届软件赛系统报名截至北京时间 2026 年 12 月 18 日 14:00。学校选拔和缴费可能另设截止日。',
+    mode:'个人报名，在赛点按机试规则参赛。',status:'报名中',statusNote:'第十八届软件赛系统报名截至北京时间 2026 年 12 月 18 日 14:00。省赛拟定 2027 年 4 月 10 日，属组委会拟定安排，具体赛点和时间以准考证为准。学校选拔和缴费可能另设截止日。',
     checked:'2026-11-23',edition:'第十八届 · 2026–2027 赛季',
     try:{label:'试做 Web 应用开发历届真题',url:'https://www.lanqiao.cn/courses/62743',note:'选一道真题，先实现能运行的最小页面，再逐项检查题目要求的交互效果。'},
-    sources:[{label:'蓝桥杯 · 第十八届大赛通知',url:'https://dasai.lanqiao.cn/notices/3002/'},{label:'上海师范大学 · 软件个人赛报名通知',url:'https://xxjd.shnu.edu.cn/_t802/24/82/c27065a861314/page.htm'},{label:'山东师范大学 · 全国软件赛时间安排',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'}],
+    sources:[{label:'蓝桥杯 · 第十八届大赛通知',url:'https://dasai.lanqiao.cn/notices/3002/'},{label:'蓝桥杯组委会 · 第十八届省赛比赛时间通知（PDF）',url:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},{label:'上海师范大学 · 软件个人赛报名通知',url:'https://xxjd.shnu.edu.cn/_t802/24/82/c27065a861314/page.htm'},{label:'山东师范大学 · 全国软件赛时间安排',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'}],
     events:[
       {title:'软件赛系统开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},
-      {title:'Web 应用开发报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'}
+      {title:'Web 应用开发报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'},
+      {title:'Web 应用开发省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准'}
     ],goals:['参加比赛', '做出作品']
   },
   {
@@ -187,12 +188,12 @@ window.ATLAS_ADDITIONS = [
     id: 'atcoder-abc', title: 'AtCoder Beginner Contest', parent: 'AtCoder',
     aliases: ['ABC', 'AtCoder 入门赛'], kind: '竞赛', contestFormat: '个人赛', region: '国际项目', topics: ['算法竞赛'],
     summary: '适合第一次打算法赛。从 A 题开始，读入数据、写出判断、提交代码，当场就能看到哪些测试通过。',
-    audience: '对编程感兴趣的人都能参赛。第 486 场对所有人开放，赛前评分在 0–1999 范围内的选手可更新评分。',
+    audience: '对编程感兴趣的人都能参赛。第 486、487 场对所有人开放，赛前评分在 0–1999 范围内的选手可更新评分。',
     entry: '登录 AtCoder，从官方赛历选一场 Beginner Contest，进入场次首页点 Register。',
-    team: '个人赛，一人报名并独立答题。', effort: '第 486 场限时 100 分钟。第一次可以把目标定为独立完成 A、B 两题。',
+    team: '个人赛，一人报名并独立答题。', effort: '第 486、487 场各限时 100 分钟。第一次可以把目标定为独立完成 A、B 两题。',
     delivery: '逐题提交源代码，由在线评测系统运行测试并计算得分。', cost: '公开算法赛免费参加。',
-    mode: '全程线上，题面可切换为英文或日文。', edition: '常设系列 · 已核实第 486 场',
-    status: '按场次报名', statusNote: '第 486 场的时间已公布。后续场次请在 AtCoder 赛历按名称查找。', checked: '2026-11-23',
+    mode: '全程线上，题面可切换为英文或日文。', edition: '常设系列 · 已核实第 486–487 场',
+    status: '按场次报名', statusNote: '第 486、487 场的时间均已在官方赛历公布。后续场次请在 AtCoder 赛历按名称查找。', checked: '2026-11-23',
     try: {label: '试做 ABC086 A 题 Product', url: 'https://atcoder.jp/contests/abc086/tasks/abc086_a?lang=en', note: '用两个样例检查输入和输出，再试试两个数都是奇数的情况。'},
     sources: [
       {label: 'AtCoder · 赛历与报名入口', url: 'https://atcoder.jp/contests?lang=en'},
@@ -200,7 +201,7 @@ window.ATLAS_ADDITIONS = [
       {label: 'AtCoder · 参赛资格与个人竞赛规则', url: 'https://atcoder.jp/contests/abc155/rules'},
       {label: 'AtCoder · 免费参赛说明', url: 'https://info.atcoder.jp/overview/about/why-tada'}
     ],
-    events: [{title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场'}],
+    events: [{title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场'}, {title: 'ABC 第 487 场比赛', start: '2026-12-05T21:00:00+09:00', end: '2026-12-05T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 487 场'}],
     goals: ['参加比赛']
   },
   {
@@ -246,13 +247,13 @@ window.ATLAS_ADDITIONS = [
     summary:'用 C 或 C++ 独立解算法题。可以从一份 B 组省赛真题开始，练习把解题思路写成能通过测试的程序。',
     audience:'按报名时的全日制学籍分组。非 985、非 211 院校的本科生可选 B 组及以上组别，高职高专学生也可选 B 组。985、211 院校本科生须选 A 组或以上，研究生须报研究生组。',
     entry:'在大赛官网实名认证，选择本校、C/C++ 程序设计和对应组别。学校审核并添加指导教师后，再按校内通知缴费。',
-    team:'个人赛，选手独立作答，由学校组织报名。',effort:'先参加省赛，晋级后参加全国总决赛。备赛时可先独立做一题，再完整限时练习。',
+    team:'个人赛，选手独立作答，由学校组织报名。',effort:'省赛拟定 2027 年 4 月 10 日 9:00–13:00，晋级后全国总决赛计划于 2027 年 6 月 12 日；时间以准考证为准。备赛时可先独立做一题，再完整限时练习。',
     delivery:'按题面要求提交答案或 C/C++ 程序。',cost:'该科目省赛报名费为每人 300 元。差旅食宿自理，校内资助情况请向学校确认。',
-    mode:'在指定赛点参加机试，地点以准考证为准。',status:'报名中',statusNote:'第十八届软件赛全国系统报名截至北京时间 2026 年 12 月 18 日 14:00。校内审核、选拔或缴费可能提前。',
+    mode:'在指定赛点参加机试，地点以准考证为准。',status:'报名中',statusNote:'第十八届软件赛全国系统报名截至北京时间 2026 年 12 月 18 日 14:00。省赛拟定 2027 年 4 月 10 日，属组委会拟定安排，具体赛点和时间以准考证为准。校内审核、选拔或缴费可能提前。',
     checked:'2026-11-23',edition:'第十八届 · 2026–2027 赛季',
     try:{label:'试做 C/C++ 大学 B 组历届真题',url:'https://www.lanqiao.cn/courses/5451',note:'从蓝桥云课的免费 B 组真题解析中选一题，先自己写程序，再对照思路。'},
-    sources:[{label:'蓝桥杯组委会 · 个人赛报名入口与分组说明',url:'https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html'},{label:'山东师范大学教务处 · 第十八届软件赛及全国赛程',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'},{label:'蓝桥云课 · C/C++ 大学 B 组真题解析',url:'https://www.lanqiao.cn/courses/5451'}],
-    events:[{title:'C/C++ 省赛开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},{title:'C/C++ 省赛全国报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'}],
+    sources:[{label:'蓝桥杯组委会 · 个人赛报名入口与分组说明',url:'https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html'},{label:'蓝桥杯组委会 · 第十八届省赛比赛时间通知（PDF）',url:'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},{label:'山东师范大学教务处 · 第十八届软件赛及全国赛程',url:'https://bkjy.sdnu.edu.cn/info/1371/19901.htm'},{label:'蓝桥云课 · C/C++ 大学 B 组真题解析',url:'https://www.lanqiao.cn/courses/5451'}],
+    events:[{title:'C/C++ 省赛开放报名',start:'2026-10-08T10:00:00+08:00',kind:'opens',timezone:'Asia/Shanghai'},{title:'C/C++ 省赛全国报名截止',deadlineGroup:'蓝桥杯省赛全国报名截止',start:'2026-12-18T14:00:00+08:00',kind:'deadline',timezone:'Asia/Shanghai'},{title:'C/C++ 程序设计省赛（拟定）',start:'2027-04-10T09:00:00+08:00',end:'2027-04-10T13:00:00+08:00',kind:'event',timezone:'Asia/Shanghai',scope:'组委会拟定，以准考证为准'}],
     goals:['参加比赛']
   }
 ];
