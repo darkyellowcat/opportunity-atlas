@@ -97,16 +97,19 @@ window.ATLAS_EXTRA = [
     team: '选手独立参赛，由学校统一组织报名。', effort: '需要预留上板调试时间。可先在电脑上验证状态变化，再到开发板测试输入和显示。',
     delivery: '按当届赛题提交程序及规定文件，按功能要求验证开发板表现。', cost: '第十八届该科目报名费每人 300 元，食宿和交通自理。',
     mode: '在线登记，按准考证和赛点要求参加省赛。', edition: '第十八届 · 2026–2027 赛季',
-    status: '报名中', statusNote: '全国系统于北京时间 12 月 18 日 14:00 停止报名。本校选拔和缴费可能提前。', checked: '2026-11-24',
+    status: '报名中', statusNote: '全国系统于北京时间 12 月 18 日 14:00 停止报名。省赛拟定 2027 年 4 月 11 日 9:00–14:00，属组委会拟定安排，具体赛点和时间以准考证为准；全国总决赛计划于 2027 年 6 月 12 日。本校选拔和缴费可能提前。', checked: '2026-11-24',
     try: {label: '试做第十二届嵌入式省赛停车计费题', url: 'https://www.lanqiao.cn/courses/2786', note: '在历届真题里选第十二届电子类嵌入式省赛。先画车辆进入、离开时的状态变化，再设计车位显示。'},
     sources: [
       {label: '蓝桥杯组委会 · 个人赛科目、报名流程和日期', url: 'https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html'},
+      {label: '蓝桥杯组委会 · 第十八届省赛比赛时间通知（PDF）', url: 'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},
       {label: '蓝桥杯组委会 · 第十八届费用说明', url: 'https://x-static.lanqiao.cn/upload/202610/courseimg/bba5ad62-84ee-40be-bb68-362924f64470.pdf'},
       {label: '蓝桥云课 · 历届电子类真题', url: 'https://www.lanqiao.cn/courses/2786'}
     ],
     events: [
       {title: '嵌入式科目开始报名', start: '2026-10-08T10:00:00+08:00', kind: 'opens', timezone: 'Asia/Shanghai'},
-      {title: '嵌入式科目全国报名截止', deadlineGroup: '蓝桥杯省赛全国报名截止', start: '2026-12-18T14:00:00+08:00', kind: 'deadline', timezone: 'Asia/Shanghai'}
+      {title: '嵌入式科目全国报名截止', deadlineGroup: '蓝桥杯省赛全国报名截止', start: '2026-12-18T14:00:00+08:00', kind: 'deadline', timezone: 'Asia/Shanghai'},
+      {title: '省赛（拟定）', start: '2027-04-11T09:00:00+08:00', end: '2027-04-11T14:00:00+08:00', kind: 'event', timezone: 'Asia/Shanghai', scope: '组委会拟定，以准考证为准', source: 'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'},
+      {title: '全国总决赛（计划，仅限晋级者）', start: '2027-06-12', kind: 'event', timezone: 'Asia/Shanghai', scope: '多科晋级只能选一科参加', source: 'https://tuanwei.hbu.edu.cn/upload/files/2026/10/d12642afdc02570d.pdf'}
     ], goals: ['参加比赛', '做出作品']
   },
   {

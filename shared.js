@@ -205,7 +205,11 @@
     const dayEvent = validDay(event.start);
     if (event.end && (dayEvent ? !validDay(event.end) : !timed(event.end))) return '';
     if (event.end && Date.parse(event.end) < Date.parse(event.start)) return '';
-    const uid = [item.id, item.edition, event.id || [event.kind, event.title, event.scope].filter(Boolean).join(':')].map(v => encodeURIComponent(v || '')).join('/') + '@opportunity-atlas';
+    // event.uid 冻结已发布事件的日历标识：之后修改 edition、标题或同一条目的其他场次，
+    // 都不应改变它，否则学生重复导入同一节点会多出一条提醒。未给出时按条目与节点推导。
+    const uid = event.uid
+      ? event.uid.split('/').map(encodeURIComponent).join('/') + '@opportunity-atlas'
+      : [item.id, item.edition, event.id || [event.kind, event.title, event.scope].filter(Boolean).join(':')].map(v => encodeURIComponent(v || '')).join('/') + '@opportunity-atlas';
     const title = [item.title, event.title, event.scope].filter(Boolean).join(' · ');
     const source = event.source || item.sources?.[0]?.url;
     const description = [item.edition, event.scope, '资料核验：' + item.checked, source].filter(Boolean).join('\n');
