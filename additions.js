@@ -189,12 +189,12 @@ window.ATLAS_ADDITIONS = [
     id: 'atcoder-abc', title: 'AtCoder Beginner Contest', parent: 'AtCoder',
     aliases: ['ABC', 'AtCoder 入门赛'], kind: '竞赛', contestFormat: '个人赛', region: '国际项目', topics: ['算法竞赛'],
     summary: '适合第一次打算法赛。从 A 题开始，读入数据、写出判断、提交代码，当场就能看到哪些测试通过。',
-    audience: '对编程感兴趣的人都能参赛。第 486、487 场对所有人开放，赛前评分在 0–1999 范围内的选手可更新评分。',
+    audience: '对编程感兴趣的人都能参赛。第 486–488 场对所有人开放，赛前评分在 0–1999 范围内的选手可更新评分。',
     entry: '登录 AtCoder，从官方赛历选一场 Beginner Contest，进入场次首页点 Register。',
-    team: '个人赛，一人报名并独立答题。', effort: '第 486、487 场各限时 100 分钟。第一次可以把目标定为独立完成 A、B 两题。',
+    team: '个人赛，一人报名并独立答题。', effort: '第 486–488 场各限时 100 分钟。第一次可以把目标定为独立完成 A、B 两题。',
     delivery: '逐题提交源代码，由在线评测系统运行测试并计算得分。', cost: '公开算法赛免费参加。',
-    mode: '全程线上，题面可切换为英文或日文。', edition: '常设系列 · 已核实第 486–487 场',
-    status: '按场次报名', statusNote: '第 486、487 场的时间均已在官方赛历公布。后续场次请在 AtCoder 赛历按名称查找。', checked: '2026-11-23',
+    mode: '全程线上，题面可切换为英文或日文。', edition: '常设系列 · 已核实第 486–488 场',
+    status: '按场次报名', statusNote: '第 486–488 场的时间均已在官方赛历公布。后续场次请在 AtCoder 赛历按名称查找。', checked: '2026-11-23',
     try: {label: '试做 ABC086 A 题 Product', url: 'https://atcoder.jp/contests/abc086/tasks/abc086_a?lang=en', note: '用两个样例检查输入和输出，再试试两个数都是奇数的情况。'},
     sources: [
       {label: 'AtCoder · 赛历与报名入口', url: 'https://atcoder.jp/contests?lang=en'},
@@ -205,7 +205,8 @@ window.ATLAS_ADDITIONS = [
     events: [
       // uid 已随上一版对外发布，冻结后不要再改；新增场次各自给稳定标识，不受 edition 改动影响。
       {title: 'ABC 第 486 场比赛', start: '2026-11-28T21:00:00+09:00', end: '2026-11-28T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 486 场', uid: 'atcoder-abc/常设系列 · 已核实第 486 场/event:ABC 第 486 场比赛:仅第 486 场'},
-      {title: 'ABC 第 487 场比赛', start: '2026-12-05T21:00:00+09:00', end: '2026-12-05T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 487 场', uid: 'atcoder-abc/abc-487'}
+      {title: 'ABC 第 487 场比赛', start: '2026-12-05T21:00:00+09:00', end: '2026-12-05T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 487 场', uid: 'atcoder-abc/abc-487'},
+      {title: 'ABC 第 488 场比赛', start: '2026-12-12T21:00:00+09:00', end: '2026-12-12T22:40:00+09:00', kind: 'event', timezone: 'Asia/Tokyo', scope: '仅第 488 场', uid: 'atcoder-abc/abc-488', source: 'https://atcoder.jp/contests/abc488'}
     ],
     goals: ['参加比赛']
   },

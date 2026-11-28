@@ -4,7 +4,7 @@ window.ATLAS_EXTRA = [
     id:"comap-mcm",title:"美国大学生数学建模竞赛 MCM/ICM",parent:"COMAP Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling",
     kind:"竞赛", contestFormat: '可单人组队',region:"国际项目",topics:["数学建模","优化与运筹","数据分析"],
     summary:"从一个现实问题出发，决定哪些数据有用、怎样建模，再用英文报告解释你的解法和结论。",
-    audience:"同一所学校在读的本科生及以下学生均可组队，专业不限。",entry:"由本校 Advisor 先注册队伍；同时留意本校选拔、组织或资助安排。",team:"同校 1–3 人，另须指定本校 Advisor。",effort:"2027 届比赛从美东 1 月 28 日 17:00 到 2 月 1 日 20:00，随后另有报告提交节点。",delivery:"按赛题提交英文建模报告，依官方规则处理摘要、参考文献及附录。",cost:"2027 届每队 100 美元；校内经费和报销请向本校确认。",mode:"团队在本地完成建模并在线提交。",
+    audience:"同一所学校在读的本科生及以下学生均可组队，专业不限。",entry:"由本校 Advisor 先注册队伍；同时留意本校选拔、组织或资助安排。",team:"同校 1–3 人，另须指定本校 Advisor。",effort:"2027 届比赛从美东 1 月 28 日 17:00 到 2 月 1 日 20:00，随后另有报告提交节点。",delivery:"按赛题提交英文建模报告，依官方规则处理摘要、参考文献及附录。2027 届全文（含摘要、正文、参考文献、附录与代码）限 25 页；允许使用生成式 AI，但须披露所用模型与用途，并在正文后另附「AI 使用报告」，该报告不计入 25 页。",cost:"2027 届每队 100 美元；校内经费和报销请向本校确认。",mode:"团队在本地完成建模并在线提交。",
     status:"本届日程已公布",statusNote:"官方给出的是美东标准时间。报名截止折合北京时间 2027 年 1 月 29 日 04:00；本校可能提前收集信息。",checked:"2026-11-23",edition:"2027 届",
     try:{label:"选一道 2026 年真题",url:"https://contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/index.html",note:"先读 B 题的太空电梯运输场景，列出运量、时间和成本三个变量。"},
     sources:[{label:"COMAP 2027 规则、费用与官方日程",url:"https://contest.comap.com/undergraduate/contests/mcm/instructions.php"},{label:"历届赛题与结果",url:"https://contest.comap.com/undergraduate/contests/mcm/previous-contests.php"}],
